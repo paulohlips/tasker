@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    paddingHorizontal: 30,
+    paddingHorizontal: 24,
     marginTop: 150,
     position: 'absolute'
   },

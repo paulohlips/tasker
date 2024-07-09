@@ -1,7 +1,7 @@
 import { TextInput, TouchableOpacity, View, Image } from "react-native";
 import { styles } from "./style";
 
-export function Header() {
+export function InputBar() {
   return (
       <View style={styles.container}>
         <TextInput
