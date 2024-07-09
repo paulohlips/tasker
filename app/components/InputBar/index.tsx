@@ -8,6 +8,7 @@ export function Header() {
           style={styles.textInput}
           placeholder="Add new task"
           placeholderTextColor={'#808080'}
+          selectionColor={'#808080'}
         />
         <TouchableOpacity
           style={styles.addButton}
