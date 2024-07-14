@@ -2,25 +2,26 @@ import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  checkboxContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  checkbox: {
+    marginLeft: 12,
     width: 24,
     height: 24,
+  },
+  touchableContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  checkbox: {
     borderWidth: 2,
-    borderColor: '#000',
-    marginRight: 8,
+    borderColor: '#4EA8DE',
+    borderRadius: 999,
+    width: 24,
+    height: 24,
   },
-  checked: {
-    backgroundColor: '#000',
-  },
-  label: {
-    fontSize: 18,
-  },
+  checkImage: {
+    flex: 1,
+    borderRadius: 999,
+    height: 30,
+    width: 30
+  }
 })
