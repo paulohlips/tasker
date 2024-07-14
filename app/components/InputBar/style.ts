@@ -2,37 +2,36 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'row',
-    paddingHorizontal: 24,
+    flexDirection: "row",
     marginTop: 150,
-    position: 'absolute'
+    marginHorizontal: 24,
+    position: "absolute",
   },
   title: {
-    color: '#5E60CE'
+    color: "#5E60CE",
   },
   textInput: {
-    height: 52,
-    backgroundColor: '#262626',
+    height: 54,
+    backgroundColor: "#262626",
     borderRadius: 6,
-    width: 271,
-    color: '#808080',
+    width: 290,
+    color: "#808080",
     padding: 8,
-    fontSize: 18
+    fontSize: 18,
   },
   addButton: {
-    backgroundColor: '#1E6F9F',
+    backgroundColor: "#1E6F9F",
     height: 52,
     width: 52,
-    marginLeft: 8,
+    marginLeft: 4,
+    marginRight: 24,
     borderRadius: 6,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   plusIcon: {
     height: 16,
-    width: 16
+    width: 16,
   },
-})
+});
+
