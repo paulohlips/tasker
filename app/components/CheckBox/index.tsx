@@ -1,16 +1,16 @@
-import { useState } from 'react'
 import { View, TouchableOpacity, Image } from 'react-native'
 import { styles } from './styles'
+import { useState } from 'react'
 
 export function CheckBox() {
   const [isChecked, setIsChecked] = useState(false)
 
-  const handlePress = () => {
+  const handleFinishTask = () => {
     setIsChecked(!isChecked)
   }
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.touchableContainer} onPress={handlePress}>
+      <TouchableOpacity style={styles.touchableContainer} onPress={handleFinishTask}>
         {
           isChecked ?
           <Image

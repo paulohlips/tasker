@@ -1,11 +1,15 @@
 import { Image, View, Text } from "react-native";
 import { CheckBox } from "../CheckBox";
 import { styles } from './styles'
-export function Task() {
+
+type TaskProps = {
+  description: string
+}
+export function Task({ description }: TaskProps) {
   return (
     <View style={styles.container}>
       <CheckBox />
-      <Text style={styles.text}>Integer urna interdum massa libero auctor neque turpis turpis semper.</Text>
+      <Text style={styles.text}>{ description }</Text>
       <Image
         style={styles.garbageIcon}
         source={require('../../../assets/images/garbage.png')}
